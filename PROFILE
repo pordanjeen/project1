@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal profile and bike portfolio of Suppakorn Duangswat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suppakorn Duangswat | Portfolio</title>
+    <link rel="stylesheet" href="style_p1.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>Suppakorn <span>Duangswat</span></h1>
+    <p>Student at KMUTNB • ITD / IBIT • Bike Enthusiast</p>
+</header>
+
+<main>
+
+    <!-- ===== ABOUT ME ===== -->
+    <section class="bike-card">
+        <div class="bike-info">
+            <h2>About Me</h2>
+            <p class="description">
+                My name is <strong>Suppakorn Duangswat</strong>. I am <strong>20 years old</strong>
+                and currently studying at <strong>King Mongkut’s University of Technology North Bangkok (KMUTNB)</strong>
+                in the <strong>ITD / IBIT</strong> program. I am passionate about technology, web development,
+                and continuous self-improvement.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== MY STORY ===== -->
+    <section class="bike-card">
+        <div class="bike-info">
+            <h2>My Story</h2>
+            <p class="description">
+                I enjoy learning new skills and building projects that improve my understanding of technology.
+                In my free time, I love riding motorcycles. Riding helps me relax, focus, and build discipline.
+                It also teaches me responsibility and confidence.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== MY BIKE PASSION ===== -->
+    <section class="bike-card">
+        <div class="bike-info">
+            <h2>My Passion for Riding</h2>
+            <p class="description">
+                I have been riding motorcycles for over <strong>1 year</strong>. My current bike is the
+                <strong>Kawasaki Ninja 300 (2014 Black Edition)</strong>. I am the <strong>6th owner</strong>
+                of this motorcycle. Riding is not just a hobby for me, but a way to improve my focus and mindset.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== BIKE PROFILE ===== -->
+    <section class="bike-card">
+        <div class="bike-info">
+            <h2>Kawasaki Ninja 300</h2>
+            <p class="edition">2014 • Black Edition</p>
+
+            <p class="description">
+                The Kawasaki Ninja 300 is a lightweight sport motorcycle designed for street riding,
+                with performance characteristics that also make it suitable for track practice and
+                beginner-level racing.
+            </p>
+
+            <ul class="specs">
+                <li><strong>Engine:</strong> 296cc Parallel Twin, Liquid-Cooled</li>
+                <li><strong>Top Speed:</strong> ~180 km/h</li>
+                <li><strong>0–100 km/h:</strong> ~5.6 seconds</li>
+                <li><strong>Transmission:</strong> 6-Speed Manual</li>
+                <li><strong>Fuel Type:</strong> Petrol</li>
+                <li><strong>Market Value:</strong> $3,000 – $4,000 (Used)</li>
+            </ul>
+        </div>
+
+        <div class="bike-image">
+            <img src="bike.jpg" alt="Kawasaki Ninja 300">
+        </div>
+    </section>
+
+    <!-- ===== BIKE CLASSIFICATION ===== -->
+    <section class="bike-card">
+        <div class="bike-info">
+            <h2>Bike Classification</h2>
+            <p class="description">
+                The Kawasaki Ninja 300 is classified as a <strong>sport motorcycle</strong>,
+                not a pure race bike. It is street-legal and designed for daily riding,
+                while still being capable of track-day use and riding training.
+            </p>
+
+            <ul class="specs">
+                <li><strong>Bike Type:</strong> Sport Bike</li>
+                <li><strong>Race Ready:</strong
