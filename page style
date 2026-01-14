@@ -1,3 +1,5 @@
+<style>
+/* ===== RESET ===== */
 * {
     margin: 0;
     padding: 0;
@@ -5,16 +7,17 @@
     font-family: "Segoe UI", Arial, sans-serif;
 }
 
+/* ===== BODY ===== */
 body {
-    background-color: #000;
+    background: #000;
     color: #fff;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
-/* Header */
+/* ===== HEADER ===== */
 .header {
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
     border-bottom: 1px solid #222;
 }
 
@@ -24,41 +27,48 @@ body {
 
 .header span {
     color: #00ff66;
+    text-shadow: 0 0 10px #00ff66;
 }
 
 .header p {
     color: #aaa;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
-/* Layout */
+/* ===== MAIN ===== */
 main {
     max-width: 1200px;
     margin: auto;
-    padding: 20px;
+    padding: 30px 20px;
 }
 
-/* Bike Card */
+/* ===== CARD ===== */
 .bike-card {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     gap: 30px;
-    background-color: #111;
-    border-radius: 12px;
-    padding: 25px;
+    background: #111;
+    border-radius: 14px;
+    padding: 30px;
     margin-bottom: 40px;
     border: 1px solid #00ff66;
+    transition: all 0.5s ease;
 }
 
+.bike-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,255,102,0.3);
+}
+
+/* ===== INFO ===== */
 .bike-info {
     flex: 1;
-    min-width: 300px;
+    min-width: 280px;
 }
 
 .bike-info h2 {
     color: #00ff66;
-    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 .edition {
@@ -70,43 +80,54 @@ main {
     margin-bottom: 15px;
 }
 
-/* Specs */
+/* ===== SPECS ===== */
 .specs {
     list-style: none;
 }
 
 .specs li {
-    padding: 6px 0;
+    padding: 8px 10px;
     border-bottom: 1px solid #222;
+    transition: all 0.3s ease;
 }
 
-/* Bike Image */
+.specs li:hover {
+    background: rgba(0,255,102,0.1);
+    padding-left: 16px;
+}
+
+/* ===== IMAGE ===== */
 .bike-image {
     flex: 1;
-    min-width: 280px;
+    min-width: 260px;
     text-align: center;
 }
 
 .bike-image img {
     width: 100%;
-    max-width: 450px;
-    border-radius: 12px;
+    max-width: 420px;
+    border-radius: 14px;
     border: 3px solid #00ff66;
+    transition: transform 0.5s ease;
 }
 
-/* Footer */
+.bike-image img:hover {
+    transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
 .footer {
     text-align: center;
-    padding: 20px;
-    background-color: #111;
+    padding: 25px;
+    background: #111;
     color: #777;
-    margin-top: 30px;
 }
 
-/* Responsive */
+/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     .bike-card {
         flex-direction: column;
         text-align: center;
     }
 }
+</style>
